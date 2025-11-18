@@ -14,7 +14,6 @@ android/build/
 android/local.properties
 android/captures/
 android/*.iml
-*.hprof
 
 # iOS
 ios/Pods/
@@ -22,25 +21,26 @@ ios/Flutter/Flutter.podspec
 ios/Flutter/Generated.xcconfig
 ios/Flutter/App.framework
 ios/Flutter/Flutter.framework
-ios/Flutter/Flutter.podspec
 ios/Runner.xcworkspace/
 ios/build/
 ios/Runner/GeneratedPluginRegistrant.*
 
-# Xcode
-*.xcuserstate
-*.xcworkspace
-*.xcodeproj/project.xcworkspace/
-*.xcodeproj/xcuserdata/
+# Linux
+linux/flutter/generated_plugin_registrant.*
 
-# VS Code
+# macOS
+macos/Flutter/GeneratedPluginRegistrant.*
+
+# Windows
+windows/flutter/generated_plugin_registrant.*
+
+# IDEs
 .vscode/
-
-# IntelliJ / Android Studio
 .idea/
 *.iml
 
-# Firebase / Google Services
+# Firebase
+# google-services.json si GoogleService-Info.plist nu se urca in mod normal
 android/app/google-services.json
 ios/Runner/GoogleService-Info.plist
 
