@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"apron-auth","appId":"1:261229837580:android:ca5da062d719fd5356dd29","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"apron-auth","configurations":{"android":"1:261229837580:android:ca5da062d719fd5356dd29","ios":"1:261229837580:ios:df984dce392f9f4956dd29"}}}}}}
